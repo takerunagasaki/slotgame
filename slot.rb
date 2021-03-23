@@ -51,7 +51,7 @@ slotdata = [["","",""],["","",""],["","",""]]
   if slotdata[1][0] == slotdata[1][1] && slotdata[1][1] == slotdata[1][2]
     coinm *= 3
     puts "横あたり！"
-  elsif (slotdata[0][0] == slotdata[1][1] && slotdata[2][2]) || (slotdata[0][2] == slotdata[1][1] && slotdata[2][0])
+  elsif (slotdata[0][0] == slotdata[1][1] && slotdata[2][2] == slotdata[1][1]) || (slotdata[0][2] == slotdata[1][1] && slotdata[2][0] == slotdata[1][1])
     coinm *= 2
     puts "斜めあたり！"
   else
